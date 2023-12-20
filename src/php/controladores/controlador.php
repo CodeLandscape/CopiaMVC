@@ -10,7 +10,7 @@ class Controlador
      * @var string|null $vista Nombre de la vista actual.
      */
     public $vista;
-    public $modelo;
+    private $modelo;
 
     /**
      * Constructor de la clase.

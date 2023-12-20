@@ -9,7 +9,7 @@ class Categoria
      * @var string|null $vista Nombre de la vista actual.
      */
     public $vista;
-    public $modelo;     ///merjo private para uisarse en esta clase, sus metodos
+    private $modelo;     ///merjo private para uisarse en esta clase, sus metodos
     
     /**
      * Constructor de la clase.
