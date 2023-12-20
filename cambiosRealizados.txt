@@ -1,0 +1,19 @@
+CONTROLADORES
+
+-en los controladores objeto y pregunta se han eliminado las llamadas a las vistas que ya no se usan.
+
+-las vistas se asignan en las funciones
+
+-se instancia un modelo en los constructores de los controladores
+
+-el mensaje se gestiona como variable local dentro de la función que se asigne
+
+MODELOS
+
+-la conexión se cerraba en cada funcion del modelo, ahora se ha creado una funcion para ello.
+
+VISTAS
+
+-los mensajes al usuario se han eliminado de las vistas
+
+-se recogen los mensajes en las vistas, a través del return del controlador y se muestra al usuario
